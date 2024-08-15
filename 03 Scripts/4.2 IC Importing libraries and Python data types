@@ -1,0 +1,151 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "3d7bcd89-d51a-4677-9b89-7aa65ac772a6",
+   "metadata": {},
+   "source": [
+    "# 01. Importing libraries\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "23524a17-f29a-423c-a7ab-c1fcabbb4ae6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Importing necessary libraries\n",
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import os\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "5721b13f-4c1a-4ae6-8ce0-9c343730c06b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 02. Working with Python data types\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "4f5e0197-a2b1-4edf-80a8-ca3c2a55e2ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n",
+      "100\n",
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Different ways to reach 100\n",
+    "a = 50 + 50\n",
+    "b = 200 - 100\n",
+    "c = 25 * 4\n",
+    "\n",
+    "print(a)\n",
+    "print(b)\n",
+    "print(c)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "28d62046-c8bb-4afc-9d5f-2f774029ad86",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4.2\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Floating-point division\n",
+    "x = 10.5\n",
+    "y = 2.5\n",
+    "result = x / y\n",
+    "\n",
+    "print(result)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "ba7fdff8-328c-42c2-b988-309bc27cbb1c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Python\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Constructing a short word from separate strings\n",
+    "word = 'Py' + 'thon'\n",
+    "\n",
+    "print(word)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "8e82ca91-9150-4393-aa26-28f2b0291f50",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Python is great!\n",
+      "Data science is fun!\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Constructing short sentences from separate strings\n",
+    "sentence1 = 'Python ' + 'is ' + 'great!'\n",
+    "sentence2 = 'Data ' + 'science ' + 'is ' + 'fun!'\n",
+    "\n",
+    "print(sentence1)\n",
+    "print(sentence2)\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
